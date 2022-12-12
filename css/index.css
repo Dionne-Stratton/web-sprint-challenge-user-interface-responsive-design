@@ -242,10 +242,16 @@ footer .footerNav {
     justify-content: center;
 }
 
+footer .footerNav a {
+    font-size: 2.5rem;
+    border: 1px solid rgb(147, 144, 144);
+}
+
 footer h2 {
-    padding-top: 2.5vh;
-    font-size: 2rem;
+    margin-top: 3.5vh;
+    font-size: 1.5rem;
     display: flex;
+    margin-right: 18%;
     justify-content: flex-end;
 }
 
@@ -258,12 +264,13 @@ footer .mail-list {
 }
 
 .EmailButton {
-    width: 75%;
+    width: 85%;
     height: 5vh;
+    margin-right: 5%;
 }
 
 .EmailButton input {
-    width: 75%;
+    width: 65%;
     height: 5vh;
     color: white;
     font-size: 2rem;
@@ -271,6 +278,7 @@ footer .mail-list {
 
 .EmailButton button {
     height: 5vh;
+    padding: 0 1.5rem;
     font-size: 2rem;
 }
 /* mobile media query */
