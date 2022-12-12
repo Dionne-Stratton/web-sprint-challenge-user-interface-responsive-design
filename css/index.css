@@ -114,12 +114,16 @@ header {
 
 header nav {
     width: 100%;
-    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid rgb(236, 90, 90);
 }
 
 .links {
     border: 1px solid rgb(39, 107, 253);
+    margin-top: 2%;
+    width: 100%;
     display: flex;
     margin-left: 0%;
     justify-content: space-around;
@@ -127,6 +131,20 @@ header nav {
 
 nav a {
     margin-left: 8%;
+}
+
+nav .social {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-around;
+    width: 20%;
+    justify-self: flex-end;
+    border: 1px solid rgb(147, 144, 144);
+}
+
+nav i {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
     border: 1px solid rgb(147, 144, 144);
 }
 
